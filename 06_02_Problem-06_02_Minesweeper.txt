@@ -1,0 +1,46 @@
+Problem-06_02_Minesweeper
+You are given a N by M matrix (N and M are two integers entered on the console), in which the cells contain single characters – 
+either a . (dot), or a ! (hash) – representing "empty" or "mined" positions.
+Write a program that prints a N by M matrix, where each cell contains a number, representing how many adjacent cells, 
+including itself, are "mined".
+Each cell in a matrix has at most 8 adjacent cells – the cells directly above, below, to the left, to the right, 
+as those diagonally – to the left and above, to the right and above, to the right and below and to the left and below.
+
+Examples
+Input1	
+5 5
+.....
+...!.
+.....
+.....
+.....
+Output:	
+00111
+00111
+00111
+00000
+00000
+
+Input2
+5 8
+........
+...!....
+....!...
+........
+...!....
+Output:	
+00111000
+00122100
+00122100
+00122100
+00111000
+
+Input3:
+3 3
+!!!
+!.!
+!!!	
+Output:
+353
+585
+353
